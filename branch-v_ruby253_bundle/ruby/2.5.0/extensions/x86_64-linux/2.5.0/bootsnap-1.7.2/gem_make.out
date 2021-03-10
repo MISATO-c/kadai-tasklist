@@ -1,5 +1,5 @@
 current directory: /home/ec2-user/environment/kadai-tasklist/branch-v_ruby253_bundle/ruby/2.5.0/gems/bootsnap-1.7.2/ext/bootsnap
-/home/ec2-user/.rvm/rubies/ruby-2.5.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.5.3/lib/ruby/site_ruby/2.5.0 -r ./siteconf20210308-14810-amj1qn.rb extconf.rb
+/home/ec2-user/.rvm/rubies/ruby-2.5.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.5.3/lib/ruby/site_ruby/2.5.0 -r ./siteconf20210310-11520-c6s1he.rb extconf.rb
 creating Makefile
 
 current directory: /home/ec2-user/environment/kadai-tasklist/branch-v_ruby253_bundle/ruby/2.5.0/gems/bootsnap-1.7.2/ext/bootsnap
@@ -31,4 +31,4 @@ linking shared-object bootsnap/bootsnap.so
 
 current directory: /home/ec2-user/environment/kadai-tasklist/branch-v_ruby253_bundle/ruby/2.5.0/gems/bootsnap-1.7.2/ext/bootsnap
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20210308-14810-gw0pmn/bootsnap
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20210310-11520-1bzc22u/bootsnap

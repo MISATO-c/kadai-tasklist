@@ -1,5 +1,5 @@
 current directory: /home/ec2-user/environment/kadai-tasklist/branch-v_ruby253_bundle/ruby/2.5.0/gems/msgpack-1.4.2/ext/msgpack
-/home/ec2-user/.rvm/rubies/ruby-2.5.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.5.3/lib/ruby/site_ruby/2.5.0 -r ./siteconf20210308-14810-19zpfq8.rb extconf.rb
+/home/ec2-user/.rvm/rubies/ruby-2.5.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.5.3/lib/ruby/site_ruby/2.5.0 -r ./siteconf20210310-11520-1vc6qsy.rb extconf.rb
 checking for ruby/st.h... yes
 checking for st.h... yes
 checking for rb_str_replace() in ruby.h... yes
@@ -70,4 +70,4 @@ linking shared-object msgpack/msgpack.so
 
 current directory: /home/ec2-user/environment/kadai-tasklist/branch-v_ruby253_bundle/ruby/2.5.0/gems/msgpack-1.4.2/ext/msgpack
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 msgpack.so ./.gem.20210308-14810-i406ox/msgpack
+/usr/bin/install -c -m 0755 msgpack.so ./.gem.20210310-11520-1cwn1vy/msgpack

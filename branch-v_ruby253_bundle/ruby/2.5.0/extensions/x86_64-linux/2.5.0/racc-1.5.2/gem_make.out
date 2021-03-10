@@ -1,5 +1,5 @@
 current directory: /home/ec2-user/environment/kadai-tasklist/branch-v_ruby253_bundle/ruby/2.5.0/gems/racc-1.5.2/ext/racc/cparse
-/home/ec2-user/.rvm/rubies/ruby-2.5.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.5.3/lib/ruby/site_ruby/2.5.0 -r ./siteconf20210308-14810-zninc.rb extconf.rb
+/home/ec2-user/.rvm/rubies/ruby-2.5.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.5.3/lib/ruby/site_ruby/2.5.0 -r ./siteconf20210310-11520-p5ot69.rb extconf.rb
 checking for rb_ary_subseq()... yes
 creating Makefile
 
@@ -13,4 +13,4 @@ linking shared-object racc/cparse.so
 
 current directory: /home/ec2-user/environment/kadai-tasklist/branch-v_ruby253_bundle/ruby/2.5.0/gems/racc-1.5.2/ext/racc/cparse
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 cparse.so ./.gem.20210308-14810-hpa87n/racc
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20210310-11520-15zf3yw/racc

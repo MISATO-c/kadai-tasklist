@@ -1,5 +1,5 @@
 current directory: /home/ec2-user/environment/kadai-tasklist/branch-v_ruby253_bundle/ruby/2.5.0/gems/mysql2-0.5.3/ext/mysql2
-/home/ec2-user/.rvm/rubies/ruby-2.5.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.5.3/lib/ruby/site_ruby/2.5.0 -r ./siteconf20210308-14810-jisg6n.rb extconf.rb
+/home/ec2-user/.rvm/rubies/ruby-2.5.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.5.3/lib/ruby/site_ruby/2.5.0 -r ./siteconf20210310-11520-1iay0j.rb extconf.rb
 checking for rb_absint_size()... yes
 checking for rb_absint_singlebit_p()... yes
 checking for rb_wait_for_single_fd()... yes
@@ -57,4 +57,4 @@ linking shared-object mysql2/mysql2.so
 
 current directory: /home/ec2-user/environment/kadai-tasklist/branch-v_ruby253_bundle/ruby/2.5.0/gems/mysql2-0.5.3/ext/mysql2
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 mysql2.so ./.gem.20210308-14810-a2nwzl/mysql2
+/usr/bin/install -c -m 0755 mysql2.so ./.gem.20210310-11520-1uea204/mysql2

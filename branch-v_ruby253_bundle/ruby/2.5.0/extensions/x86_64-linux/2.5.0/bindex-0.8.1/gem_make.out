@@ -1,5 +1,5 @@
 current directory: /home/ec2-user/environment/kadai-tasklist/branch-v_ruby253_bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
-/home/ec2-user/.rvm/rubies/ruby-2.5.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.5.3/lib/ruby/site_ruby/2.5.0 -r ./siteconf20210308-14810-vv82nh.rb extconf.rb
+/home/ec2-user/.rvm/rubies/ruby-2.5.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.5.3/lib/ruby/site_ruby/2.5.0 -r ./siteconf20210310-11520-1l72diu.rb extconf.rb
 creating Makefile
 
 current directory: /home/ec2-user/environment/kadai-tasklist/branch-v_ruby253_bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
@@ -12,4 +12,4 @@ linking shared-object skiptrace/internal/cruby.so
 
 current directory: /home/ec2-user/environment/kadai-tasklist/branch-v_ruby253_bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 cruby.so ./.gem.20210308-14810-1l3z3z3/skiptrace/internal
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20210310-11520-dma27d/skiptrace/internal
