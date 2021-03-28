@@ -2,28 +2,34 @@ class TasksController < ApplicationController
   before_action :require_user_logged_in
   before_action :correct_user, only: [:destroy]
   
-  # def index
-  #   @tasks = Task.all
-  # end
+  def index
+    #@tasks = Task.all
+    if logged_in?
+      #@task = current_user.tasks.build  # form_with 用
+      @tasks = current_user.tasks.order(id: :desc).page(params[:page])
+    end
+  end
 
-  # def show
-  #   @task = Task.find(params[:id])
-  # end
+  def show
+    #@task = Task.find(params[:id])
+    @task = current_user.tasks.find_by(id: params[:id])
+  end
 
-  # def new
-  #   @task = Task.new
-  # end
+  def new
+    #@task = Task.new
+    @task = current_user.tasks.build
+  end
 
   def create
     #@task = Task.new(task_params)
     @task = current_user.tasks.build(task_params)
     if @task.save
-      flash[:success] = 'Taskが追加されました'
+      flash[:success] = 'Taskが追加されました。'
       redirect_to root_url
     else
       @tasks = current_user.tasks.order(id: :desc).page(params[:page])
-      flash.now[:danger] ='Taskが追加されませんでした'
-      render 'toppages/index'
+      flash.now[:danger] ='Taskが追加されませんでした。'
+      render :new
     end
   end
 
@@ -47,15 +53,15 @@ class TasksController < ApplicationController
     # @task = Task.find(params[:id])
     @task.destroy
     flash[:success] = 'Taskは正常に削除されました'
-    # redirect_to tasks_url
-    redirect_back(fallback_location: root_path)
+    redirect_to root_url
+    #redirect_back(fallback_location: root_path)
   end
   
   private
   
   #Strong Parameter
   def task_params
-    params.require(:task).permit(:content)
+    params.require(:task).permit(:content, :status)
   end
   
   def correct_user
